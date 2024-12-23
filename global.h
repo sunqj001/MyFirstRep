@@ -68,6 +68,8 @@ extern void enlarge_image2(RGB* input_image, RGB* output_image,
                     float scale_h, 
                     int* new_width, int* new_height);
 
+
+//tst 2
 extern void shrink_image(RGB* input_image, RGB* output_image, 
                     int width, int height, float scale, 
                     int* new_width, int* new_height);
