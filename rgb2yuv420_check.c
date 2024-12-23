@@ -807,7 +807,6 @@ int foo(unsigned int width, unsigned int height)
                    width, iHeight);
     SaveYuvImage(pYuvImg, "yuvRote_270.yuv", iWidth * iHeight + (iWidth * iHeight) / 2, height, width);
     printf("\n");
-    printf("\n");
     
 
     free(pYuvImg);
